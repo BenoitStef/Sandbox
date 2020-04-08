@@ -144,4 +144,4 @@ Note that instead of one TDATA signal (as specified by AXI-S) the PSI VHDL Libra
 Not having an additional channel indicator for the most common TDM use-case of multiple signals at the same sample rate prevents any combinatorial blocks from having to know about being used for a TDM signal and maintaining the channel indicator. This implicitly allows using all combinatorial library elements (e.g. binary divider, function approximations, etc.) also for TDM signals
 
 ***
-Next chapter: [Packages](#../packages/ch2_packages.md)
+Next chapter: [Packages](#../ch2_packages/ch2_packages.md)

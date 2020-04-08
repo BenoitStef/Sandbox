@@ -1,33 +1,36 @@
-# **PSI COMMON Library index**
+<img align="right" src="doc/psi_logo.png">
+
 ***
+
+# **PSI COMMON Library index**
 
 ## 1 Introduction
 
-  - [1.1 Working Copy Structure ](/introduction/ch1_introduction.md#11-working-copy-structure)
+  - [1.1 Working Copy Structure ](/ch1_introduction/ch1_introduction.md#11-working-copy-structure)
 
-  - [1.2 VHDL Libraries](/introduction/ch1_introduction.md#12-vhdl-libraries)
+  - [1.2 VHDL Libraries](/ch1_introduction/ch1_introduction.md#12-vhdl-libraries)
 
-  - [1.3 Running Simulations](/introduction/ch1_introduction.md#13-running-simulations)
+  - [1.3 Running Simulations](/ch1_introduction/ch1_introduction.md#13-running-simulations)
 
-  - [1.4 Contribute to PSI VHDL Libraries](/introduction/ch1_introduction.md#14contribute-to-psi-vhdl-libraries)
+  - [1.4 Contribute to PSI VHDL Libraries](/ch1_introduction/ch1_introduction.md#14contribute-to-psi-vhdl-libraries)
 
-  - [1.5 Handshaking Signals](/introduction/ch1_introduction.md#15-handshaking-signals)
+  - [1.5 Handshaking Signals](/ch1_introduction/ch1_introduction.md#15-handshaking-signals)
 
-  - [1.6 TDM](/introduction/ch1_introduction.md#16-TDM)
+  - [1.6 TDM](/ch1_introduction/ch1_introduction.md#16-TDM)
 
 ## 2 Packages
 
-  - [2.1 psi\_common\_array\_pkg](#psi_common_array_pkg)
+  - [2.1 psi\_common\_array\_pkg](/ch2_packages/ch2_packages.md#21-psi_common_array_pkg)
 
-  - [2.2 psi\_common\_logic\_pkg](#psi_common_logic_pkg)
+  - [2.2 psi\_common\_logic\_pkg](/ch2_packages/ch2_packages.md#22-psi_common_logic_pkg)
 
-  - [2.3 psi\_common\_axi\_pkg](#psi_common_axi_pkg)
+  - [2.3 psi\_common\_axi\_pkg](/ch2_packages/ch2_packages.md#23-psi_common_axi_pkg)
 
-  - [2.4 psi\_common\_math\_pkg](#psi_common_math_pkg)
+  - [2.4 psi\_common\_math\_pkg](/ch2_packages/ch2_packages.md#24-psi_common_math_pkg)
 
 ## 3 Memories
 
-  - [3.1 psi\_common\_sdp\_ram](#psi_common_sdp_ram)
+  - [3.1 psi\_common\_sdp\_ram](/ch3_memories/ch3_1_sdp_ram.md)
 
   - [3.2 psi\_common\_sp\_ram\_be](#psi_common_sp_ram_be)
 
