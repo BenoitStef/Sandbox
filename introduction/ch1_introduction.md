@@ -83,7 +83,7 @@ To contribute to the PSI VHDL libraries, a few rules must be followed:
 *	**Documentation**
 	* Extend this document with proper documentation of your code.
 
-*	**New test-benches** must be added to the regression test-script	
+*	**New test-benches** must be added to the regression test-script
 	* Change /sim/config.tcl accordingly
 	* Test if the regression test really runs the new test-bench and exits without errors before doing any merge requests.
 
@@ -129,7 +129,7 @@ The naming conventions of the AXI-S standard are not followed strictly. The most
 
 Note that instead of one TDATA signal (as specified by AXI-S) the PSI VHDL Library sometimes has multiple data signals that are all related to the same set of handshaking signals. This helps with readability since different data can is represented by different signals instead of just one large vector.
 
-## 1.6 TDM
+## 1.6 TDM [](#tdm)
 
 **Rules**
 
