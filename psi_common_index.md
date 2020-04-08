@@ -13,7 +13,7 @@
 
   - [1.5 Handshaking Signals](#handshaking-signals)
 
-  - [1.6 TDM](/introduction/ch1_introduction.md#TDM)
+  - [1.6 TDM](/introduction/ch1_introduction.md#1.6 TDM)
 
 ## 2 Packages
 
