@@ -55,12 +55,12 @@ During work on library components, it is important to be able to control simulat
 *	Open Modelsim
 *	The TCL console, navigate to <Root>/VHDL/psi_common/sim
 *	Execute the command **“source ./interactive.tcl”**
-  - This will compile all files and initialize the PSI TCL framework
-  - From this point on, all the commands from the PSI TCL framework are available, see documentation of PsiSim
+	* This will compile all files and initialize the PSI TCL framework
+	* From this point on, all the commands from the PSI TCL framework are available, see documentation of PsiSim
 *	Most useful commands to recompile and simulate entities selectively are
-  - **_compile_files –contains [string]_**
-  - **_run_tb –contains [string]_**
-  - **_launch_tb –contains [string]_**
+	* **_compile_files –contains [string]_**
+	* **_run_tb –contains [string]_**
+	* **_launch_tb –contains [string]_**
 
 The steps for GHDL are the same, just in the TCL interpreter shall instead of the Modelsim TCL console.
 
@@ -68,32 +68,32 @@ The steps for GHDL are the same, just in the TCL interpreter shall instead of th
 ## 1.4 Contribute to PSI VHDL Libraries
 To contribute to the PSI VHDL libraries, a few rules must be followed:
 *	**Good Code Quality**
-  * There are not hard guidelines. However, your code shall be readable, understandable, correct and save. In other words: Only good code quality will be accepted.
+	* There are not hard guidelines. However, your code shall be readable, understandable, correct and save. In other words: Only good code quality will be accepted.
 
 *	**Configurability**
-  * If there are parameters that other users may have to modify at compile-time, provide generics. Only code that is written in a generic way and can easily be reused will be accepted.
+	* If there are parameters that other users may have to modify at compile-time, provide generics. Only code that is written in a generic way and can easily be reused will be accepted.
 
 *	**Self-checking Test-benches**
-  * It is mandatory to provide a self-checking test-bench with your code.
+	* It is mandatory to provide a self-checking test-bench with your code.
 	The test-bench shall cover all features of your code
-  * The test-bench shall automatically stop after it is completed (all processes halted, clock-generation stopped). See existing test-benches provided with the library for examples.
-  * The test-bench shall only do reports of severity error, failure or even fatal if there is a real problem.
-  * If an error occurs, the message reported shall start with “###ERROR###:”. This is required since the regression test script searches for this string in reports.
+	* The test-bench shall automatically stop after it is completed (all processes halted, clock-generation stopped). See existing test-benches provided with the library for examples.
+	* The test-bench shall only do reports of severity error, failure or even fatal if there is a real problem.
+	* If an error occurs, the message reported shall start with “###ERROR###:”. This is required since the regression test script searches for this string in reports.
 
 *	**Documentation**
-  * Extend this document with proper documentation of your code.
+	* Extend this document with proper documentation of your code.
 
-*	**New test-benches** must be added to the regression test-script
-  * Change /sim/config.tcl accordingly
-  * Test if the regression test really runs the new test-bench and exits without errors before doing any merge requests.
+*	**New test-benches** must be added to the regression test-script	
+	* Change /sim/config.tcl accordingly
+	* Test if the regression test really runs the new test-bench and exits without errors before doing any merge requests.
 
 * **GIT commit annotations**, please add a short description at first of your commit annotation, this ease the maintainer to merge, write the changelog.md file while doing new release and others to understand what has been committed, here below there are 6 inputs that are commonly use.
-  * **_FEATURE_**: Adding a new feature to library like a component or a package element (i.e. function, procedure, type and constant)
-  * **_GIT_**: when committing some GIT related issue, merging, etc…
-  *	**_BUGFIX_**: when a fix has been made
-  *	**_DOCU_**: documentation related comment
-  *	**_DEVEL_**: when a commit is done but work is in development
-  * **_TB_**: test bench related commit
+	* **_FEATURE_**: Adding a new feature to library like a component or a package element (i.e. function, procedure, type and constant)
+	* **_GIT_**: when committing some GIT related issue, merging, etc…
+	*	**_BUGFIX_**: when a fix has been made
+	*	**_DOCU_**: documentation related comment
+	*	**_DEVEL_**: when a commit is done but work is in development
+	* **_TB_**: test bench related commit
 
 7.	**Working with GIT**
   * If a user wants to participate to the library he is free to do so, however some rules should be considered. All PSI libraries have at least two branches develop & master. The master branch is used for stable release version all changes are merge to master when required. The develop branch is the branch when a GIT user shall diverge from to add a new component.
