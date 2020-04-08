@@ -1,5 +1,7 @@
 <img align="right" src="../doc/psi_logo.png">
 
+***
+[Back to index](../psi_common_index.md)
 # Introduction
 
 ## 1.1 Working Copy Structure
@@ -129,7 +131,7 @@ The naming conventions of the AXI-S standard are not followed strictly. The most
 
 Note that instead of one TDATA signal (as specified by AXI-S) the PSI VHDL Library sometimes has multiple data signals that are all related to the same set of handshaking signals. This helps with readability since different data can is represented by different signals instead of just one large vector.
 
-## 1.6 TDM [](#tdm)
+## 1.6 TDM [](#TDM)
 
 **Rules**
 
@@ -140,3 +142,6 @@ Note that instead of one TDATA signal (as specified by AXI-S) the PSI VHDL Libra
 **Reasoning**
 
 Not having an additional channel indicator for the most common TDM use-case of multiple signals at the same sample rate prevents any combinatorial blocks from having to know about being used for a TDM signal and maintaining the channel indicator. This implicitly allows using all combinatorial library elements (e.g. binary divider, function approximations, etc.) also for TDM signals
+
+***
+[Go to next chapter: Packages](#../packages/ch2_packages.md)
