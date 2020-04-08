@@ -4,6 +4,8 @@
 
 # psi\_common\_sdp\_ram
 
+- VHDL source: [psi_common_sdp_ram.vhd](../../hdl/psi_common_sdp_ram_.vhd)
+- Testbench: [psi_common_sdp_ram_tb.vhd](../../testbench/psi_common_sdp_ram_tb/psi_common_sdp_ram_tb.vhd)
 ## Description
 
 This component implements a simple dual port RAM. It has one write port
@@ -20,13 +22,13 @@ technologies (some technologies implement one, some the other behavior).
 
 ## Generics
 
-Generics                 | Description
------------------------|---------
-**Depth\_g** | Depth of the memory
-**Width\_g** | Width of the memory
-**IsAsync\_g** | **true** = Memory is asynchronous, *Clk* is used for write, *RdClk* for read. 	**false** = Memory is synchronous, *Clk* is used for read and write
-**RamStyle\_g** | **"auto"** (default) Automatic choice of block- or distributed-RAM, **"distributed"** Use distributed RAM (LUT-RAM), **"block"** Use block RAM
-**Behavior\_g** | **"RBW"** Read-before-write implementation, **"WBR"** Write-before-read implementation
+Generics                | Description
+------------------------|---------
+**Depth\_g** 						| Depth of the memory
+**Width\_g** 						| Width of the memory
+**IsAsync\_g** 					| **true** = Memory is asynchronous, *Clk* is used for write, *RdClk* for read. 	**false** = Memory is synchronous, *Clk* is used for read and write
+**RamStyle\_g**					| **"auto"** (default) Automatic choice of block- or distributed-RAM, **"distributed"** Use distributed RAM (LUT-RAM), **"block"** Use block RAM
+**Behavior\_g** 				| **"RBW"** Read-before-write implementation, **"WBR"** Write-before-read implementation
 
 ## Interfaces
 

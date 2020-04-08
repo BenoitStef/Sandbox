@@ -4,7 +4,7 @@
 # psi\_common\_async\_fifo
 
 - VHDL source: [psi_common_async_fifo.vhd](../../hdl/psi_common_async_fifo.vhd)
-- Testbench: [psi_common_async_fifo_tb.vhd](../../testbench/psi_common_sp_ram_be_tb/psi_common_async_fifo_tb.vhd)
+- Testbench: [psi_common_async_fifo_tb.vhd](../../testbench/psi_common_async_fifo_tb/psi_common_async_fifo_tb.vhd)
 
 ### Description
 

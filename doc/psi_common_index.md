@@ -32,19 +32,19 @@
 
 [3.1 psi\_common\_sdp\_ram](ch3_memories/ch3_1_sdp_ram.md)
 
-[3.2 psi\_common\_sp\_ram\_be](ch3_memories/ch3_2_sdp_ram_be.md)
+[3.2 psi\_common\_sp\_ram\_be](ch3_memories/ch3_2_sp_ram_be.md)
 
 [3.3 psi\_common\_tdp\_ram](ch3_memories/ch3_3_tdp_ram.md)
 
-[3.4 psi\_common\_tdp\_ram\_be](ch3_memories/ch3_3_tdp_ram_be.md)
+[3.4 psi\_common\_tdp\_ram\_be](ch3_memories/ch3_4_tdp_ram_be.md)
 
 ### 4 FIFOs
 
-[4.1 psi\_common\_async\_fifo](#psi_common_async_fifo)
+[4.1 psi\_common\_async\_fifo](ch4_fifos/ch4_1_async_fifo.md)
 
-[4.2 psi\_common\_sync\_fifo](#psi_common_sync_fifo)
+[4.2 psi\_common\_sync\_fifo](ch4_fifos/ch4_2_sync_fifo.md)
 
-[5 Clock Crossings](#clock-crossings)
+### 5 Clock Crossings]
 
 [5.1 psi\_common\_pulse\_cc](#psi_common_pulse_cc)
 

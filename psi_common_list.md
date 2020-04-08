@@ -12,6 +12,11 @@ True Dual port RAM  										| [psi_common_tdp_ram.vhd](hdl/psi_common_tdp_ram.
 True dual port RAM with byte enable  		| [psi_common_tdp_ram_be.vhd](hdl/psi_common_tdp_ram_be.vhd)	| [link](doc/ch3_memories/ch3_4_tdp_ram_be.md)    
 
 ### FIFO components
+Component available     | Source                                                      | Description
+------------------------|-------------------------------------------------------------|:-------------------------------------------:
+Asynchronous FIFO 			| [psi_common_async_fifo.vhd](hdl/psi_common_async_fifo.vhd)	| [link](doc/ch4_fifos/ch4_1_async_fifo.md)  
+Synchronous FIFO  			| [psi_common_sync_fifo.vhd](hdl/psi_common_sync_fifo.vhd)    | [link](doc/ch4_fifos/ch4_2sync_fifo.md)    
+
 
 ### Clock domain crossing (CDC) components
 
