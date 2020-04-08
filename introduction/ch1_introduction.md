@@ -67,27 +67,27 @@ The steps for GHDL are the same, just in the TCL interpreter shall instead of th
 
 ## 1.4 Contribute to PSI VHDL Libraries
 To contribute to the PSI VHDL libraries, a few rules must be followed:
--	**Good Code Quality**
+1.	**Good Code Quality**
   * There are not hard guidelines. However, your code shall be readable, understandable, correct and save. In other words: Only good code quality will be accepted.
 
--	**Configurability**
+2.	**Configurability**
   * If there are parameters that other users may have to modify at compile-time, provide generics. Only code that is written in a generic way and can easily be reused will be accepted.
 
--	**Self-checking Test-benches**
+3.	**Self-checking Test-benches**
   * It is mandatory to provide a self-checking test-bench with your code.
 	The test-bench shall cover all features of your code
   * The test-bench shall automatically stop after it is completed (all processes halted, clock-generation stopped). See existing test-benches provided with the library for examples.
   * The test-bench shall only do reports of severity error, failure or even fatal if there is a real problem.
   * If an error occurs, the message reported shall start with “###ERROR###:”. This is required since the regression test script searches for this string in reports.
 
--	**Documentation**
+4.	**Documentation**
   * Extend this document with proper documentation of your code.
 
--	**New test-benches** must be added to the regression test-script
+5.	**New test-benches** must be added to the regression test-script
   * Change /sim/config.tcl accordingly
   * Test if the regression test really runs the new test-bench and exits without errors before doing any merge requests.
 
-- **GIT commit annotations**, please add a short description at first of your commit annotation, this ease the maintainer to merge, write the changelog.md file while doing new release and others to understand what has been committed, here below there are 6 inputs that are commonly use.
+6. **GIT commit annotations**, please add a short description at first of your commit annotation, this ease the maintainer to merge, write the changelog.md file while doing new release and others to understand what has been committed, here below there are 6 inputs that are commonly use.
   * **_FEATURE_**: Adding a new feature to library like a component or a package element (i.e. function, procedure, type and constant)
   * **_GIT_**: when committing some GIT related issue, merging, etc…
   *	**_BUGFIX_**: when a fix has been made
@@ -95,7 +95,7 @@ To contribute to the PSI VHDL libraries, a few rules must be followed:
   *	**_DEVEL_**: when a commit is done but work is in development
   * **_TB_**: test bench related commit
 
--	**Working with GIT**
+7.	**Working with GIT**
   * If a user wants to participate to the library he is free to do so, however some rules should be considered. All PSI libraries have at least two branches develop & master. The master branch is used for stable release version all changes are merge to master when required. The develop branch is the branch when a GIT user shall diverge from to add a new component.
   * A good practice is to call the branch the name of the new block, the user is free to push into this branch and once the work is over a pull request can be done to the base branch develop (Step 1). Members of the library may then have exchange and add comment during a code review (Step 2). The initial user takes into consideration the comment and once bug are fixed for instance a new pull request can be done. If members agree on the new feature then it is merged to develop (Step 3) and the branch will be safely deleted by the repository maintainer.
 
