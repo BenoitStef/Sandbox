@@ -55,12 +55,12 @@ During work on library components, it is important to be able to control simulat
 -	Open Modelsim
 -	The TCL console, navigate to <Root>/VHDL/psi_common/sim
 -	Execute the command **“source ./interactive.tcl”**
-  * This will compile all files and initialize the PSI TCL framework
-  * From this point on, all the commands from the PSI TCL framework are available, see documentation of PsiSim
+	* This will compile all files and initialize the PSI TCL framework
+	* From this point on, all the commands from the PSI TCL framework are available, see documentation of PsiSim
 -	Most useful commands to recompile and simulate entities selectively are
-  * **_compile_files –contains [string]_**
-  * **_run_tb –contains [string]_**
-  * **_launch_tb –contains [string]_**
+	* **_compile_files –contains [string]_**
+	* **_run_tb –contains [string]_**
+	* **_launch_tb –contains [string]_**
 
 The steps for GHDL are the same, just in the TCL interpreter shall instead of the Modelsim TCL console.
 
