@@ -52,42 +52,42 @@ All test benches are executed automatically and at the end of the regression tes
 ### 1.3.2 Working Interactively
 
 During work on library components, it is important to be able to control simulations interactively. To do so, it is suggested to follow the following flow:
--	Open Modelsim
--	The TCL console, navigate to <Root>/VHDL/psi_common/sim
--	Execute the command **“source ./interactive.tcl”**
-	* This will compile all files and initialize the PSI TCL framework
-	* From this point on, all the commands from the PSI TCL framework are available, see documentation of PsiSim
--	Most useful commands to recompile and simulate entities selectively are
-	* **_compile_files –contains [string]_**
-	* **_run_tb –contains [string]_**
-	* **_launch_tb –contains [string]_**
+*	Open Modelsim
+*	The TCL console, navigate to <Root>/VHDL/psi_common/sim
+*	Execute the command **“source ./interactive.tcl”**
+  - This will compile all files and initialize the PSI TCL framework
+  - From this point on, all the commands from the PSI TCL framework are available, see documentation of PsiSim
+*	Most useful commands to recompile and simulate entities selectively are
+  - **_compile_files –contains [string]_**
+  - **_run_tb –contains [string]_**
+  - **_launch_tb –contains [string]_**
 
 The steps for GHDL are the same, just in the TCL interpreter shall instead of the Modelsim TCL console.
 
 
 ## 1.4 Contribute to PSI VHDL Libraries
 To contribute to the PSI VHDL libraries, a few rules must be followed:
-1.	**Good Code Quality**
+*	**Good Code Quality**
   * There are not hard guidelines. However, your code shall be readable, understandable, correct and save. In other words: Only good code quality will be accepted.
 
-2.	**Configurability**
+*	**Configurability**
   * If there are parameters that other users may have to modify at compile-time, provide generics. Only code that is written in a generic way and can easily be reused will be accepted.
 
-3.	**Self-checking Test-benches**
+*	**Self-checking Test-benches**
   * It is mandatory to provide a self-checking test-bench with your code.
 	The test-bench shall cover all features of your code
   * The test-bench shall automatically stop after it is completed (all processes halted, clock-generation stopped). See existing test-benches provided with the library for examples.
   * The test-bench shall only do reports of severity error, failure or even fatal if there is a real problem.
   * If an error occurs, the message reported shall start with “###ERROR###:”. This is required since the regression test script searches for this string in reports.
 
-4.	**Documentation**
+*	**Documentation**
   * Extend this document with proper documentation of your code.
 
-5.	**New test-benches** must be added to the regression test-script
+*	**New test-benches** must be added to the regression test-script
   * Change /sim/config.tcl accordingly
   * Test if the regression test really runs the new test-bench and exits without errors before doing any merge requests.
 
-6. **GIT commit annotations**, please add a short description at first of your commit annotation, this ease the maintainer to merge, write the changelog.md file while doing new release and others to understand what has been committed, here below there are 6 inputs that are commonly use.
+* **GIT commit annotations**, please add a short description at first of your commit annotation, this ease the maintainer to merge, write the changelog.md file while doing new release and others to understand what has been committed, here below there are 6 inputs that are commonly use.
   * **_FEATURE_**: Adding a new feature to library like a component or a package element (i.e. function, procedure, type and constant)
   * **_GIT_**: when committing some GIT related issue, merging, etc…
   *	**_BUGFIX_**: when a fix has been made
