@@ -19,7 +19,6 @@ for the *\<Root\>* folder.
 <p align="center">
 <img src="general.png">
 </p>
-<center> Figure 1: Working copy structure </center>
 
 ## 1.2 VHDL Libraries
 
@@ -100,7 +99,9 @@ To contribute to the PSI VHDL libraries, a few rules must be followed:
   - If a user wants to participate to the library he is free to do so, however some rules should be considered. All PSI libraries have at least two branches develop & master. The master branch is used for stable release version all changes are merge to master when required. The develop branch is the branch when a GIT user shall diverge from to add a new component.
   - A good practice is to call the branch the name of the new block, the user is free to push into this branch and once the work is over a pull request can be done to the base branch develop (Step 1). Members of the library may then have exchange and add comment during a code review (Step 2). The initial user takes into consideration the comment and once bug are fixed for instance a new pull request can be done. If members agree on the new feature then it is merged to develop (Step 3) and the branch will be safely deleted by the repository maintainer.
 
-<img align="center" src="git.png">
+<p align="center">
+<img  src="git.png">
+</p>
 
 ## 1.5 Handshaking Signals
 ### 1.5.1	General Information
@@ -116,7 +117,9 @@ A data transfer takes place during a clock cycle where TVALID and TREADY (if ava
 -	If a slave asserts TREADY, it is permitted to de-assert TREADY before TVALID is asserted.
 An example an AXI handshaking waveform is given below. All the points where data is actually transferred are marked with dashed lines.
 
-<img align="center" src="handshake.png">
+<p align="center">
+<img src="handshake.png">
+</p>
 
 ### 1.5.3	Naming
 The naming conventions of the AXI-S standard are not followed strictly. The most common synonyms that can be found within the PSI VHDL libraries are described below:
