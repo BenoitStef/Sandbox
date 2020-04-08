@@ -4,8 +4,8 @@
 
 # psi\_common\_sp\_ram\_be
 
-- VHDL source: [psi_common_sp_ram_be.vhd](../hdl/psi_common_sp_ram_be.vhd)
-- Testbench: [psi_common_sp_ram_be_tb.vhd](../testbench/psi_common_sp_ram_be_tb/psi_common_sp_ram_be_tb.vhd)
+- VHDL source: [psi_common_sp_ram_be.vhd](../../hdl/psi_common_sp_ram_be.vhd)
+- Testbench: [psi_common_sp_ram_be_tb.vhd](../../testbench/psi_common_sp_ram_be_tb/psi_common_sp_ram_be_tb.vhd)
 
 ### Description
 
