@@ -8,7 +8,7 @@
 
 ### Description
 
-Same as [3.3](ch_3_3_tdp_ram.md) psi\_common\_tdp\_ram but with byte-enables. A byte is only
+Same as [3.3](ch3_3_tdp_ram.md) psi\_common\_tdp\_ram but with byte-enables. A byte is only
 written if *WrX* is set and the corresponding *BeX* bit is set too.
 
 ### Generics
@@ -39,7 +39,7 @@ DoutB                   |Output      |Width\_g              |Port B read data
 
 ### Constraints
 
-Same as [3.3](ch_3_3_tdp_ram.md) psi\_common\_tdp\_ram
+Same as [3.3](ch3_3_tdp_ram.md) psi\_common\_tdp\_ram
 
 ***
 

@@ -16,3 +16,10 @@ True dual port RAM with byte enable  		| [psi_common_tdp_ram_be.vhd](hdl/psi_com
 ### Clock domain crossing (CDC) components
 
 ### Pacakages
+
+Package available   | 									Source                                    | Description
+--------------------|-------------------------------------------------------------|:----------------------------------------:
+Math  							| [psi_common_math_pkg.vhd](hdl/psi_common_math_pkg.vhd)	 		| [link](doc/ch2_packages/ch2_packages.md)  
+array 							| [psi_common_array_pkg.vhd](hdl/psi_common_array_pkg.vhd)    | [link](doc/ch2_packages/ch2_packages.md)  
+logic								| [psi_common_logic_pkg.vhd](hdl/psi_common_logic_pkg.vhd)	  | [link](doc/ch2_packages/ch2_packages.md)     
+axi 							  | [psi_common_axi_pkg.vhd](hdl/psi_common_axi_pkg.vhd)				| [link](doc/ch2_packages/ch2_packages.md)
