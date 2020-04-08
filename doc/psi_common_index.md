@@ -6,7 +6,7 @@
 
 ## 1 Introduction
 
-  - [1.1 Working Copy Structure ](/ch1_introduction/ch1_introduction.md#11-working-copy-structure)
+  - [1.1 Working Copy Structure ](ch1_introduction/ch1_introduction.md#11-working-copy-structure)
 
   - [1.2 VHDL Libraries](/ch1_introduction/ch1_introduction.md#12-vhdl-libraries)
 
