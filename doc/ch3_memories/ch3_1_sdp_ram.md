@@ -34,12 +34,12 @@ Generics                 | Description
   -----------------------|----------|:----------------------:|-----------------------------------------------
   Clk                    | Input    |   1                    |  Clock
   RdClk                  | Input    |   1                    |  Read clock (only used if *IsAsync\_g* = true)
-	Wr                     | Input    |   1                    |  Write enable (active high)
+  Wr                     | Input    |   1                    |  Write enable (active high)
   WrAddr                 | Input    |   ceil(log2(Depth\_g)) |  Write address
   RdAddr                 | Input    |   ceil(log2(Depth\_g)) |  Read address
-	WrData                 | Input    |   Width\_g             |  Write data
+  WrData                 | Input    |   Width\_g             |  Write data
   RdData                 | Output   |   Width\_g             |  Read data
-	Rd                     | Input    |   1                    |  Read enable (active high)
+  Rd                     | Input    |   1                    |  Read enable (active high)
 
 
 Back: [index](../psi_common_index.md) **|** Next: [Memories | sdp ram be](../ch3_memories/ch3_2_sp_ram_be.md)
