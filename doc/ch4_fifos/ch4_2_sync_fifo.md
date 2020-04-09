@@ -58,4 +58,4 @@ OutAlmEmpty                        | Output    | 1        | FIFO almost  empty s
 OutLevel                           | Output    | ceil(log2(Depth\_g))+1  | FIFO level     synchronous to  *OutClk*
 
 ***
-Back: [index](../psi_common_index.md) **|** Next: [CC | Pulse cc](../ch5_cc/ch5_1_pulse_cc.md)
+[Index](../psi_common_index.md)**|** Previous: [FIFO > async fifo](../ch4_fifos/ch4_1_async_fifo.md) **|** Next: [CC | Pulse cc](../ch5_cc/ch5_1_pulse_cc.md)

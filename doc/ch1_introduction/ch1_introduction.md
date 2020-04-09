@@ -145,4 +145,4 @@ Not having an additional channel indicator for the most common TDM use-case of m
 
 ***
 
-Back: [index](../psi_common_index.md) **|** Next: [Packages](../ch2_packages/ch2_packages.md)
+[Index](../psi_common_index.md) **|** Next: [Packages](../ch2_packages/ch2_packages.md)

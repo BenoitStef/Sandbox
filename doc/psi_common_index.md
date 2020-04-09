@@ -48,19 +48,19 @@
 
 ### 5 Clock Crossings]
 
-[5.1 psi\_common\_pulse\_cc](ch5_cc/ch5_1_pulse_cc)
+[5.1 psi\_common\_pulse\_cc](ch5_cc/ch5_1_pulse_cc.md)
 
-[5.2 psi\_common\_simple\_cc](ch5_cc/ch5_2_simple_cc)
+[5.2 psi\_common\_simple\_cc](ch5_cc/ch5_2_simple_cc.md)
 
-[5.3 psi\_common\_status\_cc](ch5_cc/ch5_3_status_cc)
+[5.3 psi\_common\_status\_cc](ch5_cc/ch5_3_status_cc.md)
 
-[5.4 psi\_common\_sync\_cc\_n2xn](ch5_cc/ch5_4_sync_cc_n2xn)
+[5.4 psi\_common\_sync\_cc\_n2xn](ch5_cc/ch5_4_sync_cc_n2xn.md)
 
-[5.5 psi\_common\_sync\_cc\_xn2n](ch5_cc/ch5_5_sync_cc_xn2n)
+[5.5 psi\_common\_sync\_cc\_xn2n](ch5_cc/ch5_5_sync_cc_xn2n.md)
 
-[5.6 psi\_common\_bit\_cc](ch5_cc/ch5_6_bit_cc)
+[5.6 psi\_common\_bit\_cc](ch5_cc/ch5_6_bit_cc.md)
 
-[5.7 Other Components that can be used as Clock Crossings](ch5_cc/ch5_7)
+[5.7 Other Components that can be used as Clock Crossings](ch5_cc/ch5_7.md)
 
 ### 6 Timing
 

@@ -44,4 +44,4 @@ Generics                | Description
   Rd                     | Input    |   1                    |  Read enable (active high)
 
 
-Back: [index](../psi_common_index.md) **|** Next: [Memories | sdp ram be](../ch3_memories/ch3_2_sp_ram_be.md)
+[Index](../psi_common_index.md) **|** Previous: [Packages](../ch2_packages/ch2_packages.md) **|** Next: [Memories > sdp ram be](../ch3_memories/ch3_2_sp_ram_be.md)

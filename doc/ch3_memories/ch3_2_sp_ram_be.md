@@ -39,4 +39,4 @@ Generics        | description
   Dout                   | Output     | Width\_g             |  Read data
 
 ***
-Back: [index](../psi_common_index.md) **|** Next: [Memories | tdp ram](../ch3_memories/ch3_3_tdp_ram.md)
+[Index](../psi_common_index.md) **|** Previous: [Memories > sdp ram](../ch3_memories/ch3_1_sdp_ram.md) **|** Next: [Memories > tdp ram](../ch3_memories/ch3_3_tdp_ram.md)

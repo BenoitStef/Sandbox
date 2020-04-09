@@ -43,4 +43,4 @@ Same as [3.3](ch3_3_tdp_ram.md) psi\_common\_tdp\_ram
 
 ***
 
-Back: [index](../psi_common_index.md) **|** Next: [Fifos | Async fifo](../ch4_fifos/ch4_1_async_fifo.md)
+[Index](../psi_common_index.md) **|** Previous: [Memories > tdp ram](../ch3_memories/ch3_3_tdp_ram.md) **|** Next: [FIFO > Async fifo](../ch4_fifos/ch4_1_async_fifo.md)

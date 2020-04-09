@@ -61,4 +61,4 @@ set_max_delay --datapath_only --from <ClkB> -to <ClkA> 10.0
 
 ***
 
-Back: [index](../psi_common_index.md) **|** Next: [Memories | tdp ram be](../ch3_memories/ch3_4_tdp_ram_be.md)
+[Index](../psi_common_index.md) **|** Previous: [Memories > sp ram be](../ch3_memories/ch3_2_sp_ram_be.md) **|** Next: [Memories > tdp ram be](../ch3_memories/ch3_4_tdp_ram_be.md)
