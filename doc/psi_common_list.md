@@ -22,7 +22,7 @@ Synchronous FIFO  			| [psi_common_sync_fifo.vhd](hdl/psi_common_sync_fifo.vhd) 
 Component available     | Source                                                      | Description
 ------------------------|-------------------------------------------------------------|:-------------------------------------------:
 pulse clock crossing  (async pulse/vld trasnfer)	| [psi_common_pulse_cc.vhd](hdl/psi_common_pulse_cc.vhd)   	  | [link](doc/ch5_cc/ch5_1_pulse_cc.md)   
-simple clock crossing (async data value transfer) | [psi_common_pulse_cc.vhd](hdl/psi_common_simple_cc.vhd)   	| [link](doc/ch5_cc/ch5_2_simple_cc.md)    
+simple clock crossing (async data value transfer) | [psi_common_pulse_cc.vhd](hdl/psi_common_simple_cc.vhd)   	  | [link](doc/ch5_cc/ch5_2_simple_cc.md)    
   |   |  
 ### Packages
 

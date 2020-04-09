@@ -4,6 +4,8 @@
 
 # **PSI COMMON Library index**
 
+[Component available list](psi_common_list.md)
+
 ### 1 Introduction
 
 [1.1 Working Copy Structure ](ch1_introduction/ch1_introduction.md#11-working-copy-structure)
@@ -46,19 +48,19 @@
 
 ### 5 Clock Crossings]
 
-[5.1 psi\_common\_pulse\_cc](#psi_common_pulse_cc)
+[5.1 psi\_common\_pulse\_cc](ch5_cc/ch5_1_pulse_cc)
 
-[5.2 psi\_common\_simple\_cc](#psi_common_simple_cc)
+[5.2 psi\_common\_simple\_cc](ch5_cc/ch5_2_simple_cc)
 
-[5.3 psi\_common\_status\_cc](#psi_common_status_cc)
+[5.3 psi\_common\_status\_cc](ch5_cc/ch5_3_status_cc)
 
-[5.4 psi\_common\_sync\_cc\_n2xn](#psi_common_sync_cc_n2xn)
+[5.4 psi\_common\_sync\_cc\_n2xn](ch5_cc/ch5_4_sync_cc_n2xn)
 
-[5.5 psi\_common\_sync\_cc\_xn2n](#psi_common_sync_cc_xn2n)
+[5.5 psi\_common\_sync\_cc\_xn2n](ch5_cc/ch5_5_sync_cc_xn2n)
 
-[5.6 psi\_common\_bit\_cc](#psi_common_bit_cc)
+[5.6 psi\_common\_bit\_cc](ch5_cc/ch5_6_bit_cc)
 
-[5.7 Other Components that can be used as Clock Crossings 30](#other-components-that-can-be-used-as-clock-crossings)
+[5.7 Other Components that can be used as Clock Crossings](ch5_cc/ch5_7)
 
 ### 6 Timing
 
