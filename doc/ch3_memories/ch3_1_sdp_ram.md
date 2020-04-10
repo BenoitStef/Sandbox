@@ -2,10 +2,11 @@
 
 ***
 
-# psi\_common\_sdp\_ram
+# psi_common_sdp_ram
 
-- VHDL source: [psi_common_sdp_ram.vhd](../../hdl/psi_common_sdp_ram_.vhd)
-- Testbench: [psi_common_sdp_ram_tb.vhd](../../testbench/psi_common_sdp_ram_tb/psi_common_sdp_ram_tb.vhd)
+- VHDL source: [psi_common_sdp_ram.vhd](../../hdl/psi_common_sdp_ram.vhd)
+- Testbench: **_not applicable_**
+-
 ## Description
 
 This component implements a simple dual port RAM. It has one write port

@@ -1,7 +1,7 @@
 <img align="right" src="../psi_logo.png">
 
 ***
-# psi\_common\_async\_fifo
+# psi_common_async_fifo
 
 - VHDL source: [psi_common_async_fifo.vhd](../../hdl/psi_common_async_fifo.vhd)
 - Testbench: [psi_common_async_fifo_tb.vhd](../../testbench/psi_common_async_fifo_tb/psi_common_async_fifo_tb.vhd)

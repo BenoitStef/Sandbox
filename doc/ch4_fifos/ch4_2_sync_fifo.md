@@ -1,7 +1,7 @@
 <img align="right" src="../psi_logo.png">
 
 ***
-# psi\_common\_sync\_fifo
+# psi_common_sync_fifo
 
 - VHDL source: [psi_common_sync_fifo.vhd](../../hdl/psi_common_sync_fifo.vhd)
 - Testbench: [psi_common_sync_fifo_tb.vhd](../../testbench/psi_common_sync_fifo_tb/psi_common_sync_fifo_tb.vhd)

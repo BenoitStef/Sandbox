@@ -2,10 +2,10 @@
 
 ***
 
-# psi\_common\_pulse\_cc
+# psi_common_simple_cc
 
 - VHDL source: [psi_common_simple_cc.vhd](../../hdl/psi_common_simple_cc_.vhd)
-- Testbench: [psi_common_simple_cc_tb.vhd](../../testbench/psi_common_simple_cc_tb.vhd)
+- Testbench: [psi_common_simple_cc_tb.vhd](../../testbench/psi_common_simple_cc_tb/psi_common_simple_cc_tb.vhd)
 
 ### Description
 
@@ -26,8 +26,7 @@ applying all attributes to synthesize them correctly.
 
 Generics         | Description
 -----------------|------------
-**Width\_g**     | Width of the data signal to implement the clock crossing
-for
+**Width\_g**     | Width of the data signal to implement the clock crossing for
 
 ### Interfaces
 
@@ -67,4 +66,4 @@ set_max_delay --datapath_only --from <ClkA> -to <ClkB> 30.0
 ```
 
 ***
-[Index](../psi_common_index.md) **|** Previous: [cdc > pulse cc](../ch5_cc/ch5_2_simple_cc.md) **|** Next: [cdc > status cc](../ch5_cc/ch5_2_status_cc.md)
+[Index](../psi_common_index.md) **|** Previous: [cdc > pulse cc](../ch5_cc/ch5_1_pulse_cc.md) **|** Next: [cdc > status cc](../ch5_cc/ch5_3_status_cc.md)

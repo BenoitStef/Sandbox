@@ -1,7 +1,7 @@
 <img align="right" src="../psi_logo.png">
 
 ***
-# psi\_common\_tdp\_ram\_be
+# psi_common_tdp_ram_be
 
 - VHDL source: [psi_common_tdp_ram_be.vhd](../../hdl/psi_common_tdp_ram_be.vhd)
 - Testbench: [psi_common_tdp_ram_be_tb.vhd](../../testbench/psi_common_tdp_ram_be_tb/psi_common_tdp_ram_be_tb.vhd)

@@ -2,10 +2,10 @@
 
 ***
 
-# psi\_common\_tdp\_ram
+# psi_common_tdp_ram
 
 - VHDL source: [psi_common_tdp_ram.vhd](../../hdl/psi_common_tdp_ram_.vhd)
-- Testbench: [psi_common_tdp_ram_tb.vhd](../../testbench/psi_common_tdp_ram_tb/psi_common_tdp_ram_tb.vhd)
+- Testbench: **_not applicable_**
 
 ### Description
 
