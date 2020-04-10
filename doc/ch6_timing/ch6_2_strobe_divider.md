@@ -4,7 +4,7 @@
 # psi_common_strobe_divider
 
 - VHDL source: [psi_common_strobe_divider.vhd](../../hdl/psi_common_strobe_divider.vhd)
-- Testbench: [psi_common_strobe_divider.vhd](../../testbench/psi_common_strobe_divider_tb/psi_common_strobe_divider_tb.vhd)
+- Testbench: [psi_common_strobe_divider_tb.vhd](../../testbench/psi_common_strobe_divider_tb/psi_common_strobe_divider_tb.vhd)
 
 
 ### Description

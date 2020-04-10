@@ -32,6 +32,11 @@ Bit CDC  | [psi_common_bit_cc.vhd](../../hdl/psi_common_bit_cc.vhd)   | [link](c
 - [psi_common_tdp_ram](ch3_memories/ch3_3_tdp_ram.md)
 - [psi_common_async_fifo](ch4_fifos/ch4_1_async_fifo.md)
 
+### Conversions components
+Component available     | Source                                                      | Description
+------------------------|-------------------------------------------------------------|:-------------------------------------------:
+Data width conversion from a N-bits to a multiple N-bits 		| [psi_common_wconv_n2xn.vhd](../hdl/psi_common_wconv_n2xn.vhd)	| [link](ch7_conversions/ch7_2_wconv_n2xn.md)  
+Data width conversion from a multiple N-bits to a N-bits  	| [psi_common_wconv_x2nn.vhd](../hdl/psi_common_wconv_xn2n.vhd)    | [link](ch7_conversions/ch7_2_wconv_xn2n.md)
 
 ### Packages
 
