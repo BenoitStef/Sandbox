@@ -5,7 +5,7 @@
 # psi_common_strobe_generator
 
 - VHDL source: [psi_common_strobe_generator.vhd](../../hdl/psi_common_strobe_generator.vhd)
-- Testbench: [psi_common_bit_cc_tb.vhd](../../testbench/psi_common_strobe_generator_tb/psi_common_strobe_generator_tb.vhd)
+- Testbench: [psi_common_strobe_generator_tb.vhd](../../testbench/psi_common_strobe_generator_tb/psi_common_strobe_generator_tb.vhd)
 
 ### Description
 
@@ -45,4 +45,4 @@ The figure below shows the behavior of strobe synchronization for a strobe outpu
 </p>
 
 ***
-[Index](../psi_common_index.md) **|** Previous: [cdc > bit cc](../ch5_cc/ch5_6_bit_cc.md) **|** Next: [timing > strobe divider](../ch6_timing/ch6_1_strobe_divider.md)
+[Index](../psi_common_index.md) **|** Previous: [cdc > bit cc](../ch5_cc/ch5_6_bit_cc.md) **|** Next: [timing > strobe divider](../ch6_timing/ch6_2_strobe_divider.md)

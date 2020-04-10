@@ -5,7 +5,7 @@
 # psi_common_bit_cc_n2xn
 
 - VHDL source: [psi_common_bit_cc.vhd](../../hdl/psi_common_bit_cc.vhd)
-- Testbench: [psi_common_bit_cc_tb.vhd](../../testbench/psi_common_bit_cc_tb/psi_common_bit_cc_tb.vhd)
+- Testbench: **not applicable**
 
 ### Description
 
