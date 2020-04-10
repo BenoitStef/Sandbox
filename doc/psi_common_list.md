@@ -38,6 +38,14 @@ Component available     | Source                                                
 Data width conversion from a N-bits to a multiple N-bits 		| [psi_common_wconv_n2xn.vhd](../hdl/psi_common_wconv_n2xn.vhd)	| [link](ch7_conversions/ch7_2_wconv_n2xn.md)  
 Data width conversion from a multiple N-bits to a N-bits  	| [psi_common_wconv_x2nn.vhd](../hdl/psi_common_wconv_xn2n.vhd)    | [link](ch7_conversions/ch7_2_wconv_xn2n.md)
 
+### Time Division Multiplexing (TDM) data Handling components
+Component available     | Source                                                      | Description
+------------------------|-------------------------------------------------------------|:-------------------------------------------:
+TDM data to parallel  	| [psi_common_tdm_par](../hdl/psi_common_tdm_par.vhd)   			|  [link](ch8_tdm_handling/ch8_2_tdm_par.md)
+Parallel to TDM data  	| [psi_common_par_tdm](../hdl/psi_common_par_tdm.vhd)  				|  [link](ch8_tdm_handling/ch8_1_par.md)
+TDM data to Parallel with configurable valid output channel number  |   [psi_common_tdm_par_cfg](../hdl/psi_common_tdm_par_cfg.vhd)  				|  [link](ch8_tdm_handling/ch8_3_tdm_par_cfg.md)  
+TDM data multiplexer  | [psi_common_tdm_mux.vhd](../hdl/psi_common_tdm_mux.vhd)  | [link](ch8_4_tdm_mux.md)  
+
 ### Packages
 
 Package available   | 									Source                                    | Description

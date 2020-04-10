@@ -4,7 +4,7 @@
 # psi_common_tdm_mux
 
 - VHDL source: [psi_common_tdm_mux.vhd](../../hdl/psi_common_tdm_mux.vhd)
-- Testbench: [psi_common_tdm_mux.vhd](../../testbench/psi_common_tdm_mux/psi_common_tdm_mux.vhd)
+- Testbench: [psi_common_tdm_mux_tb.vhd](../../testbench/psi_common_tdm_mux_tb/psi_common_tdm_mux_tb.vhd)
 
 ### Description
 
