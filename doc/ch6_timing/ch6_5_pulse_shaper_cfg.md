@@ -33,4 +33,4 @@ hold\_i   |Input      |Log2ceil(MaxHoldOff\_g)   |Minimum time between each new 
 dat\_o    |Output     |1                         |Output Pulse
 
 ***
-[Index](../psi_common_index.md) **|** Previous: [timing > pulse shaper](../ch6_timing/ch6_4_pulse_shaper.md) **|** Next [timing > clk meas](../ch6_timing/ch6_6_clk_meas.md)
+[Index](../psi_common_index.md) **|** Previous: [timing > pulse shaper](../ch6_timing/ch6_4_pulse_shaper.md) **|** Next: [timing > clk meas](../ch6_timing/ch6_6_clk_meas.md)

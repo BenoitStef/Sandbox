@@ -14,10 +14,8 @@ Input pulses are detected based on their rising edge.
 
 The figure below shows an example behavior for *Duration\_g=3* and *HoldOff\_g=4*. The first pulse is stretched to three cycles, the second pulse is ignored because it is within the hold-off time and the third pulse is shortened to three cycles.
 
-<p align="center">
-<img src="ch6_4_fig11.png">
-</p>
-<p align="center"> Example waveform> </p>
+<p align="center"><img src="ch6_4_fig11.png"></p>
+<p align="center"> Example waveform </p>
 
 ### Generics
 Generics        | Description
@@ -36,4 +34,4 @@ InPulse   |Input      |1      |Input Pulse
 OutPulse  |Output     |1      |Output Pulse
 
 ***
-[Index](../psi_common_index.md) **|** Previous: [timing > tick generator](../ch6_timing/ch6_3_tick_generator.md) **|** Next [timing > pulse shaper cfg](../ch6_timing/ch6_5_pulse_shaper_cfg.md)
+[Index](../psi_common_index.md) **|** Previous: [timing > tick generator](../ch6_timing/ch6_3_tick_generator.md) **|** Next: [timing > pulse shaper cfg](../ch6_timing/ch6_5_pulse_shaper_cfg.md)

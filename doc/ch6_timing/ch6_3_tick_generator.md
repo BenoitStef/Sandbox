@@ -30,4 +30,4 @@ tick1ms\_o   |Output     |1      |Millisecond tick output
 tick1sec\_o  |Output     |1      |Second tick output
 
 ***
-[Index](../psi_common_index.md) **|** Previous: [timing > strobe divider](../ch6_timing/ch6_2_strobe_divider.md) **|** Next [timing > pulse shaper](../ch6_timing/ch6_4_pulse_shaper.md)
+[Index](../psi_common_index.md) **|** Previous: [timing > strobe divider](../ch6_timing/ch6_2_strobe_divider.md) **|** Next: [timing > pulse shaper](../ch6_timing/ch6_4_pulse_shaper.md)

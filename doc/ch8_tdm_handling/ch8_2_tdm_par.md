@@ -33,4 +33,4 @@ Signal                 | Direction | Width                               |Descri
   Parallel             |    Output |    ChannelCount\_g\*ChannelWidth\_g | Data of all channels in parallel. Channel 0 is in the lowest bits.
 
 ***
-[Index](../psi_common_index.md) **|** Previous: [TDM hanlding >par tdm](../ch8_tdm_handling/ch8_1_par_tdm.md) **|** Next [TDM handling > tdm par cfg](../ch8_tdm_handling/ch8_3_tdm_par_cfg.md)
+[Index](../psi_common_index.md) **|** Previous: [TDM hanlding >par tdm](../ch8_tdm_handling/ch8_1_par_tdm.md) **|** Next: [TDM handling > tdm par cfg](../ch8_tdm_handling/ch8_3_tdm_par_cfg.md)

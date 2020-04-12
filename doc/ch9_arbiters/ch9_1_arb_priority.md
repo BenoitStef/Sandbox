@@ -50,4 +50,4 @@ The figure below shows the parallel prefix computation graphically.
 
 
 ***
-[Index](../psi_common_index.md) **|** Previous: [TDM hanlding > tdm mux](../ch8_tdm_handling/ch8_4_tdm_mux.md) **|** Next [Arbiters > arb round_robin](../ch9_arbiters/ch9_2_arb_round_robin.md)
+[Index](../psi_common_index.md) **|** Previous: [TDM hanlding > tdm mux](../ch8_tdm_handling/ch8_4_tdm_mux.md) **|** Next: [Arbiters > arb round_robin](../ch9_arbiters/ch9_2_arb_round_robin.md)

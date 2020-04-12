@@ -64,51 +64,51 @@
 
 ### 6 Timing
 
-[6.1 psi\_common\_strobe\_generator](#psi_common_strobe_generator)
+[6.1 psi\_common\_strobe\_generator](ch6_timing/ch6_1_strobe_generator.md)
 
-[6.2 psi\_common\_strobe\_divider](#psi_common_strobe_divider)
+[6.2 psi\_common\_strobe\_divider](ch6_timing/ch6_2_strobe_divider.md)
 
-[6.3 psi\_common\_tickgenerator](#psi_common_tickgenerator)
+[6.3 psi\_common\_tickgenerator](ch6_timing/ch6_3_tick_generator.md)
 
-[6.4 psi\_common\_pulse\_shaper](#psi_common_pulse_shaper)
+[6.4 psi\_common\_pulse\_shaper](ch6_timing/ch6_4_pulse_shaper.md)
 
-[6.5 psi\_common\_pulse\_shaper\_cfg](#psi_common_pulse_shaper_cfg)
+[6.5 psi\_common\_pulse\_shaper\_cfg](ch6_timing/ch6_5_pulse_shaper_cfg.md)
 
-[6.6 psi\_common\_clk\_meas](#psi_common_clk_meas)
+[6.6 psi\_common\_clk\_meas](ch6_timing/ch6_6_clk_meas.md)
 
 ### 7 Conversions
 
-[7.1 psi\_common\_wconv\_n2xn](#psi_common_wconv_n2xn)
+[7.1 psi\_common\_wconv\_n2xn](ch7_conversions/ch7_1_wconv_n2xn.md)
 
-[7.2 psi\_common\_wconv\_xn2n](#psi_common_wconv_xn2n)
+[7.2 psi\_common\_wconv\_xn2n](ch7_conversions/ch7_2_wconv_xn2n.md)
 
 ### 8 TDM Handling
 
-[8.1 psi\_common\_par\_tdm](#psi_common_par_tdm)
+[8.1 psi\_common\_par\_tdm](ch8_tdm_handling/ch8_1_par_tdm.md)
 
-[8.2 psi\_common\_tdm\_par](#psi_common_tdm_par)
+[8.2 psi\_common\_tdm\_par](ch8_tdm_handling/ch8_2_tdm_par.md)
 
-[8.3 psi\_common\_tdm\_par\_cfg](#psi_common_tdm_par_cfg)
+[8.3 psi\_common\_tdm\_par\_cfg](ch8_tdm_handling/ch8_3_tdm_par_cfg.md)
 
-[8.4 psi\_common\_tdm\_mux](#psi_common_tdm_mux)
+[8.4 psi\_common\_tdm\_mux](ch8_tdm_handling/ch8_4_tdm_mux.md)
 
 ### 9 Arbiters
 
-[9.1 psi\_common\_arb\_priority](#psi_common_arb_priority)
+[9.1 psi\_common\_arb\_priority](ch9_arbiters/ch9_1_arb_priority.md)
 
-[9.2 psi\_common\_arb\_round\_robin](#psi_common_arb_round_robin)
+[9.2 psi\_common\_arb\_round\_robin](ch9_arbiters/ch9_2_arb_round_robin.md)
 
 ### 10 Interfaces
 
-[10.1 psi\_common\_spi\_master](#psi_common_spi_master)
+[10.1 psi\_common\_spi\_master](ch10_interfaces/ch10_1_spi_master.md)
 
-[10.2 psi\_common\_i2c\_master](#psi_common_i2c_master)
+[10.2 psi\_common\_i2c\_master](ch10_interfaces/ch10_2_i2c_master.md)
 
-[10.3 psi\_common\_axi\_master\_simple](#psi_common_axi_master_simple)
+[10.3 psi\_common\_axi\_master\_simple](ch10_interfaces/ch10_3_axi_master_simple.md)
 
-[10.4 psi\_common\_axi\_master\_full](#psi_common_axi_master_full)
+[10.4 psi\_common\_axi\_master\_full](ch10_interfaces/ch10_4_axi_master_full.md)
 
-[10.5 psi\_common\_axi\_slave\_ipif](#psi_common_axi_slave_ipif)
+[10.5 psi\_common\_axi\_slave\_ipif](ch10_interfaces/ch10_5_axi_slave_ipif.md)
 
 ### 11 Miscellaneous
 

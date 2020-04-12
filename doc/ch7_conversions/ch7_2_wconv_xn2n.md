@@ -50,4 +50,4 @@ OutData         | Output    | OutWidth\_g     | Data signal output
 OutLast         | Output    | 1               | AXI-S handshaking signal          
 
 ***
-[Index](../psi_common_index.md) **|** Previous: [conversion > wconv n2xn](../ch7_conversions/ch7_1_wconv_n2xn.md) **|** Next [TDM handling > par tdm](../ch8_tdm_handling/ch8_1_par_tdm.md)
+[Index](../psi_common_index.md) **|** Previous: [conversion > wconv n2xn](../ch7_conversions/ch7_1_wconv_n2xn.md) **|** Next: [TDM handling > par tdm](../ch8_tdm_handling/ch8_1_par_tdm.md)

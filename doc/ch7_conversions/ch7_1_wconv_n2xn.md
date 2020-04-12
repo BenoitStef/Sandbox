@@ -55,4 +55,4 @@ The ratio OutWidth_g/InWidth_g must be an integer number and *OutWidth\_g* must 
 
 
 ***
-[Index](../psi_common_index.md) **|** Previous: [timing > clk meas](../ch6_timing/ch6_6_clk_meas.md) **|** Next [conversion > wconv xn2n](../ch7_conversions/ch7_2_wconv_xn2n.md)
+[Index](../psi_common_index.md) **|** Previous: [timing > clk meas](../ch6_timing/ch6_6_clk_meas.md) **|** Next: [conversion > wconv xn2n](../ch7_conversions/ch7_2_wconv_xn2n.md)

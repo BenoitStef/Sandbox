@@ -33,4 +33,4 @@ Generics        | Description
 
 
 ***
-[Index](../psi_common_index.md) **|** Previous: [timing > strobe generator](../ch6_timing/ch6_1_strobe_generator.md) **|** Next [timing > tick generator](../ch6_timing/ch6_3_tick_generator.md)
+[Index](../psi_common_index.md) **|** Previous: [timing > strobe generator](../ch6_timing/ch6_1_strobe_generator.md) **|** Next: [timing > tick generator](../ch6_timing/ch6_3_tick_generator.md)

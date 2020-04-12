@@ -33,4 +33,4 @@ OutTdmVld              |Output     |1                          |AXI-S handshakin
 OutTdmDat              |Output     |data\_length\_g            |Data output
 
 ***
-[Index](../psi_common_index.md) **|** Previous: [TDM hanlding > tdm par cfg](../ch8_tdm_handling/ch8_3_tdm_par.md) **|** Next [Arbiters > arb priority](../ch9_arbiters/ch9_1_arb_priority.md)
+[Index](../psi_common_index.md) **|** Previous: [TDM hanlding > tdm par cfg](../ch8_tdm_handling/ch8_3_tdm_par.md) **|** Next: [Arbiters > arb priority](../ch9_arbiters/ch9_1_arb_priority.md)

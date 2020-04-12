@@ -27,4 +27,4 @@ FrequencyHz   |Output     |32     |Clock frequency for *ClkTest* in Hz
 FrequencyVld  |Output     |1      |Handshaking signal (set on every update of *FrequencyHz*)
 
 ***
-[Index](../psi_common_index.md) **|** Previous: [timing > pulse shaper cfg](../ch6_timing/ch6_5_pulse_shaper_cfg.md) **|** Next [conversion > wconv n2xn](../ch7_conversions/ch7_1_wconv_n2xn.md)
+[Index](../psi_common_index.md) **|** Previous: [timing > pulse shaper cfg](../ch6_timing/ch6_5_pulse_shaper_cfg.md) **|** Next: [conversion > wconv n2xn](../ch7_conversions/ch7_1_wconv_n2xn.md)

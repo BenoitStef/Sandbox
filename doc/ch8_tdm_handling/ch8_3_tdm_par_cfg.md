@@ -42,4 +42,4 @@ ParallelVld            |Output     |1                                 | AXI-S ha
 Parallel               |Output     |ChannelCount\_g\*ChannelWidth\_g  | Data of all channels in parallel. Channel 0 is in the lowest bits.
 
 ***
-[Index](../psi_common_index.md) **|** Previous: [TDM hanlding > tdm par](../ch8_tdm_handling/ch8_2_tdm_par.md) **|** Next [TDM handling > tdm mux](../ch8_tdm_handling/ch8_4_tdm_mux.md)
+[Index](../psi_common_index.md) **|** Previous: [TDM hanlding > tdm par](../ch8_tdm_handling/ch8_2_tdm_par.md) **|** Next: [TDM handling > tdm mux](../ch8_tdm_handling/ch8_4_tdm_mux.md)

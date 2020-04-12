@@ -49,4 +49,4 @@ Grant\_Vld          | Outpu     | 1         | AXI-S handshaking signal, Asserted
 Grant\_Rdy          | Input     | 1         | AXI-S handshaking signal The state of the  arbiter is updated  upon *Grant\_Rdy =   '1'*
 
 ***
-[Index](../psi_common_index.md) **|** Previous: [Arbiters > arb priority](../ch9_arbiters/ch9_1_arb_priority.md) **|** Next [Interfaces > spi master](../ch10_interfaces/ch10_1_spi_master.md)
+[Index](../psi_common_index.md) **|** Previous: [Arbiters > arb priority](../ch9_arbiters/ch9_1_arb_priority.md) **|** Next: [Interfaces > spi master](../ch10_interfaces/ch10_1_spi_master.md)

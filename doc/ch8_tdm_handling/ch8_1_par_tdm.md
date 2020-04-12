@@ -34,4 +34,4 @@ TdmVld                 |Output     |1                                 |AXI-S han
 Tdm                    |Output     |ChannelWidth                      |Data signal output
 
 ***
-[Index](../psi_common_index.md) **|** Previous: [conversion > wconv n2xn](../ch7_conversions/ch7_2_wconv_xn2n.md) **|** Next [TDM handling > tdm par](../ch8_tdm_handling/ch8_2_tdm_par.md)
+[Index](../psi_common_index.md) **|** Previous: [conversion > wconv n2xn](../ch7_conversions/ch7_2_wconv_xn2n.md) **|** Next: [TDM handling > tdm par](../ch8_tdm_handling/ch8_2_tdm_par.md)
