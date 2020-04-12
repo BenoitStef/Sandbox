@@ -3,8 +3,8 @@
 ***
 # psi_common_arb_round_robin
 
-- VHDL source: [psi_common_arb_round_robin.vhd](../hdl/psi_common_arb_round_robin.vhd)
-- Testbench: [psi_common_arb_round_robin_tb.vhd](../testbench/psi_common_arb_round_robin_tb/psi_common_arb_round_robin.vhd)]
+- VHDL source: [psi_common_arb_round_robin.vhd](../../hdl/psi_common_arb_round_robin.vhd)
+- Testbench: [psi_common_arb_round_robin_tb.vhd](../../testbench/psi_common_arb_round_robin_tb/psi_common_arb_round_robin.vhd)]
 
 ### Description
 

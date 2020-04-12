@@ -3,8 +3,8 @@
 ***
 # psi_common_arb_priority
 
-- VHDL source: [psi_common_arb_priority.vhd](../hdl/psi_common_arb_priority.vhd)
-- Testbench: [psi_common_arb_priority_tb.vhd](../testbench/psi_common_arb_priority_tb/psi_common_arb_priority_tb.vhd)]
+- VHDL source: [psi_common_arb_priority.vhd](../../hdl/psi_common_arb_priority.vhd)
+- Testbench: [psi_common_arb_priority_tb.vhd](../../testbench/psi_common_arb_priority_tb/psi_common_arb_priority_tb.vhd)
 
 ### Description
 
