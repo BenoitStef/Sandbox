@@ -41,10 +41,16 @@ Data width conversion from a multiple N-bits to a N-bits  	| [psi_common_wconv_x
 ### Time Division Multiplexing (TDM) data Handling components
 Component available     | Source                                                      | Description
 ------------------------|-------------------------------------------------------------|:-------------------------------------------:
-TDM data to parallel  	| [psi_common_tdm_par](../hdl/psi_common_tdm_par.vhd)   			|  [link](ch8_tdm_handling/ch8_2_tdm_par.md)
-Parallel to TDM data  	| [psi_common_par_tdm](../hdl/psi_common_par_tdm.vhd)  				|  [link](ch8_tdm_handling/ch8_1_par.md)
-TDM data to Parallel with configurable valid output channel number  |   [psi_common_tdm_par_cfg](../hdl/psi_common_tdm_par_cfg.vhd)  				|  [link](ch8_tdm_handling/ch8_3_tdm_par_cfg.md)  
-TDM data multiplexer  | [psi_common_tdm_mux.vhd](../hdl/psi_common_tdm_mux.vhd)  | [link](ch8_4_tdm_mux.md)  
+TDM data to parallel  	| [psi_common_tdm_par.vhd](../hdl/psi_common_tdm_par.vhd)   			|  [link](ch8_tdm_handling/ch8_2_tdm_par.md)
+Parallel to TDM data  	| [psi_common_par_tdm.vhd](../hdl/psi_common_par_tdm.vhd)  				|  [link](ch8_tdm_handling/ch8_1_par.md)
+TDM data to Parallel with configurable valid output channel number  |   [psi_common_tdm_par_cfg.vhd](../hdl/psi_common_tdm_par_cfg.vhd)  				|  [link](ch8_tdm_handling/ch8_3_tdm_par_cfg.md)  
+TDM data multiplexer  | [psi_common_tdm_mux.vhd](../hdl/psi_common_tdm_mux.vhd)  | [link](ch8_tdm_handling/ch8_4_tdm_mux.md)  
+
+### Arbiters
+Package available   | 									Source                                    | Description
+--------------------|-------------------------------------------------------------|:----------------------------------------:
+Priority  | [psi_common_arb_priority.vhd](../hdl/psi_common_arb_priority.vhd)   | [link](ch9_arbiters/ch9_1_arb_priority.md)  
+Round robin  | [psi_common_arb_round_robin.vhd](../hdl/psi_common_arb_round_robin.vhd)   | [link](ch9_arbiters/ch9_2_arb_round_robin.md)  
 
 ### Packages
 
