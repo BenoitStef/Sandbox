@@ -2,8 +2,8 @@
 
 ***
 # psi_common_axi_slave_ipif
-- VHDL source: [psi_common_axi_master_ipif.vhd](../../hdl/psi_common_axi_master_ipif.vhd)
-- Testbench: [psi_common_axi_master_ipif_tb.vhd](../../testbench/psi_common_axi_master_ipif_tb/psi_common_axi_master_ipif_tb.vhd)
+- VHDL source: [psi_common_axi_slave_ipif.vhd](../../hdl/psi_common_axi_slave_ipif.vhd)
+- Testbench: [psi_common_axi_slave_ipif_tb.vhd](../../testbench/psi_common_axi_slave_ipif_tb/psi_common_axi_slave_ipif_tb.vhd)
 
 
 ### 1 Description
@@ -112,7 +112,7 @@ access.
 Generics              | Description
 ----------------------|--------------------------------
 **NumReg\_g**         |Number of registers to implement
-**ResetVal\_g**       |Reset values for registers. The size of the array passeddoes not have to match *NumReg\_g*, if it does not, the reset values are applied to the first N registers and the other registers are reset to zero.
+**ResetVal\_g**       |Reset values for registers. The size of the array passed does not have to match *NumReg\_g*, if it does not, the reset values are applied to the first N registers and the other registers are reset to zero.
 **UseMem\_g**         |**True** = use memory interface, **False** = use registers only
 **AxiIdWidth\_g**     |Number of bits used for the AXI ID signals
 **AxiAddrWidth \_g**  |Number of AXI address bits supported
@@ -138,4 +138,5 @@ Generics              | Description
  s\_axi\_\*      | \*        | \*              | AXI signals, see AXI specification   
 
 ***
-[Index](../psi_common_index.md) **|** Previous: [Interfaces > axi master full](../ch10_interfaces/ch10_3_axi_master_full.md)
+[Index](../psi_common_index.md) **|** Previous: [Interfaces > axi master full](../ch10_interfaces/ch10_3_axi_master_full.md) **|**
+Next: [Miscellaneous > delay](../ch11_misc/ch11_1_delay.md)
