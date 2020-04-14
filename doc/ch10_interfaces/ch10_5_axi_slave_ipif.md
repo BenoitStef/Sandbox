@@ -126,10 +126,9 @@ Generics              | Description
  s\_axi\_aresetn | Input     | 1               | Reset (low| active)         
  ***Register Interface***    |                 |                 |        
  o\_reg\_rd      | Output    | *NumReg\_g*     | Read-pulse for each register   
- i\_reg\_rdata   | Input     | *NumReg\_g x 32*| Register read values  
- o\_reg\_wr      | Input     | *NumReg\_g*     | Write-pulse for
-                 |           |                 | each register   
- o\_reg\_wdata   | Input     |*NumReg\_g x 32* | Register writevalues          
+ i\_reg\_rdata   | Input     |*NumReg\_g x 32* | Register read values  
+ o\_reg\_wr      | Input     | *NumReg\_g*     | Write-pulse for each register   
+ o\_reg\_wdata   | Input     |*NumReg\_g x 32* | Register write values          
  ***Memory Interface***      |                 |                  |         
  o\_mem\_addr    | Output    | *AxiAddrWidth\_g* | Memory address  
  o\_mem\_wr      | Output    | *4*             | Memory byte write enables (one signal per byte)           
