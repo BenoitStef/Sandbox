@@ -52,6 +52,15 @@ Package available   | 									Source                                    | Descr
 Priority  | [psi_common_arb_priority.vhd](../hdl/psi_common_arb_priority.vhd)   | [link](ch9_arbiters/ch9_1_arb_priority.md)  
 Round robin  | [psi_common_arb_round_robin.vhd](../hdl/psi_common_arb_round_robin.vhd)   | [link](ch9_arbiters/ch9_2_arb_round_robin.md)  
 
+### Interfaces
+Package available   | 									Source                                    						  	| Description
+--------------------|-----------------------------------------------------------------------------|:----------------------------------------:
+SPI master  				| [psi_common_spi_master.vhd](../hdl/psi_common_spi_master.vhd)   					  | [link](ch10_interfaces/ch10_1_spi_master.md)  
+I2C master  				| [psi_common_i2c_master.vhd](../hdl/psi_common_i2c_master.vhd)   						| [link](ch10_interfaces/ch10_2_i2c_master.md)  
+AXI master Simple   | [psi_common_axi_master_simple.vhd](../hdl/psi_common_axi_master_simple.vhd) | [link](ch10_interfaces/ch10_3_axi_master_simple.md)  
+AXI master Full  	  | [psi_common_axi_master_full.vhd](../hdl/psi_common_axi_master_full.vhd) 		| [link](ch10_interfaces/ch10_4_axi_master_full.md)  
+AXI master IP  		  | [psi_common_axi_slave_ipif.vhd](../hdl/psi_common_axi_slave_ipif.vhd)   		| [link](ch10_interfaces/ch10_5_axi_slave_ipif.md)  
+
 ### Packages
 
 Package available   | 									Source                                    | Description

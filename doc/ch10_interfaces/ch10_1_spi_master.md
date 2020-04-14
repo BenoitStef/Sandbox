@@ -3,6 +3,9 @@
 ***
 # psi_common_spi_master
 
+- VHDL source: [psi_common_spi_master.vhd](../../hdl/psi_common_spi_master.vhd)
+- Testbench: [psi_common_spi_master_tb.vhd](../../testbench/psi_common_spi_master_tb/psi_common_spi_master_tb.vhd)
+
 ### Description
 
 This entity implements a simple SPI master. All common SPI settings are
