@@ -4,7 +4,7 @@
 
 # psi_common_delay_cfg
 
-- VHDL source: [psi_common_delay_cfg.vhd](../../hdl/psi_common_delay_cfg_tb.vhd)
+- VHDL source: [psi_common_delay_cfg.vhd](../../hdl/psi_common_delay_cfg.vhd)
 - Testbench: [psi_common_delay_cfg_tb.vhd](../../testbench/psi_common_delay_cfg_tb/psi_common_delay_cfg_tb.vhd)
 
 ### Description
