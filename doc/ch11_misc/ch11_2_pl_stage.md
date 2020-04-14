@@ -2,7 +2,7 @@
 
 ***
 
-#psi_common_pl_stage
+# psi_common_pl_stage
 
 - VHDL source: [psi_common_pl_stage.vhd](../../hdl/psi_common_pl_stage.vhd)
 - Testbench: [psi_common_pl_stage_tb.vhd](../../testbench/psi_common_pl_stage_tb/psi_common_pl_stage_tb.vhd)
