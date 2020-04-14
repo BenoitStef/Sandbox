@@ -129,8 +129,7 @@ Generics              | Description
  i\_reg\_rdata   | Input     | *NumReg\_g x 32*| Register read values  
  o\_reg\_wr      | Input     | *NumReg\_g*     | Write-pulse for
                  |           |                 | each register   
- o\_reg\_wdata   | Input     | *NumReg\_g x    | Register write  
-                 |           | 32*             | values          
+ o\_reg\_wdata   | Input     |*NumReg\_g x 32* | Register writevalues          
  ***Memory Interface***      |                 |                  |         
  o\_mem\_addr    | Output    | *AxiAddrWidth\_g* | Memory address  
  o\_mem\_wr      | Output    | *4*             | Memory byte write enables (one signal per byte)           
