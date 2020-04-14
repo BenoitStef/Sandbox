@@ -3,7 +3,7 @@
 ***
 # psi_common_dont_opt
 
-- VHDL source: [psi_common_dont_opt.vhd](../../hdl/psi_common_delay.vhd)
+- VHDL source: [psi_common_dont_opt.vhd](../../hdl/psi_common_dont_opt.vhd)
 - Testbench:  **_not applicable_**
 
 ### Description
