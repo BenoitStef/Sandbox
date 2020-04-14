@@ -5,7 +5,7 @@
 
 - VHDL source: [psi_common_i2c_master.vhd](../../hdl/psi_common_i2c_master_tb.vhd)
 - Testbench: [psi_common_i2c_master_tb.vhd](../../testbench/psi_common_i2c_master_tb/psi_common_i2c_master_tb.vhd)
--
+
 ### Description
 
 This entity implements an I2C master that is multi-master capable (i.e.

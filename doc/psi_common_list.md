@@ -11,12 +11,15 @@ Simple dual port RAM with byte enable  	| [psi_common_sp_ram_be.vhd](../hdl/psi_
 True Dual port RAM  										| [psi_common_tdp_ram.vhd](../hdl/psi_common_tdp_ram.vhd)	  		| [link](ch3_memories/ch3_3_tdp_ram.md)    
 True dual port RAM with byte enable  		| [psi_common_tdp_ram_be.vhd](../hdl/psi_common_tdp_ram_be.vhd)	| [link](ch3_memories/ch3_4_tdp_ram_be.md)    
 
+***
+
 ### FIFO components
 Component available     | Source                                                      | Description
 ------------------------|-------------------------------------------------------------|:-------------------------------------------:
 Asynchronous FIFO 			| [psi_common_async_fifo.vhd](../hdl/psi_common_async_fifo.vhd)	| [link](ch4_fifos/ch4_1_async_fifo.md)  
 Synchronous FIFO  			| [psi_common_sync_fifo.vhd](../hdl/psi_common_sync_fifo.vhd)    | [link](ch4_fifos/ch4_2_sync_fifo.md)    
 
+***
 
 ### Clock domain crossing (CDC) components
 Component available     | Source                                                      | Description
@@ -32,11 +35,15 @@ Bit CDC  | [psi_common_bit_cc.vhd](../../hdl/psi_common_bit_cc.vhd)   | [link](c
 - [psi_common_tdp_ram](ch3_memories/ch3_3_tdp_ram.md)
 - [psi_common_async_fifo](ch4_fifos/ch4_1_async_fifo.md)
 
+***
+
 ### Conversions components
 Component available     | Source                                                      | Description
 ------------------------|-------------------------------------------------------------|:-------------------------------------------:
 Data width conversion from a N-bits to a multiple N-bits 		| [psi_common_wconv_n2xn.vhd](../hdl/psi_common_wconv_n2xn.vhd)	| [link](ch7_conversions/ch7_2_wconv_n2xn.md)  
 Data width conversion from a multiple N-bits to a N-bits  	| [psi_common_wconv_x2nn.vhd](../hdl/psi_common_wconv_xn2n.vhd)    | [link](ch7_conversions/ch7_2_wconv_xn2n.md)
+
+***
 
 ### Time Division Multiplexing (TDM) data Handling components
 Component available     | Source                                                      | Description
@@ -46,13 +53,17 @@ Parallel to TDM data  	| [psi_common_par_tdm.vhd](../hdl/psi_common_par_tdm.vhd)
 TDM data to Parallel with configurable valid output channel number  |   [psi_common_tdm_par_cfg.vhd](../hdl/psi_common_tdm_par_cfg.vhd)  				|  [link](ch8_tdm_handling/ch8_3_tdm_par_cfg.md)  
 TDM data multiplexer  | [psi_common_tdm_mux.vhd](../hdl/psi_common_tdm_mux.vhd)  | [link](ch8_tdm_handling/ch8_4_tdm_mux.md)  
 
-### Arbiters
+***
+
+### Arbiters components
 Package available   | 									Source                                    | Description
 --------------------|-------------------------------------------------------------|:----------------------------------------:
 Priority  | [psi_common_arb_priority.vhd](../hdl/psi_common_arb_priority.vhd)   | [link](ch9_arbiters/ch9_1_arb_priority.md)  
 Round robin  | [psi_common_arb_round_robin.vhd](../hdl/psi_common_arb_round_robin.vhd)   | [link](ch9_arbiters/ch9_2_arb_round_robin.md)  
 
-### Interfaces
+***
+
+### Interfaces components
 Package available   | 									Source                                    						  	| Description
 --------------------|-----------------------------------------------------------------------------|:----------------------------------------:
 SPI master  				| [psi_common_spi_master.vhd](../hdl/psi_common_spi_master.vhd)   					  | [link](ch10_interfaces/ch10_1_spi_master.md)  
@@ -61,6 +72,21 @@ AXI master Simple   | [psi_common_axi_master_simple.vhd](../hdl/psi_common_axi_m
 AXI master Full  	  | [psi_common_axi_master_full.vhd](../hdl/psi_common_axi_master_full.vhd) 		| [link](ch10_interfaces/ch10_4_axi_master_full.md)  
 AXI master IP  		  | [psi_common_axi_slave_ipif.vhd](../hdl/psi_common_axi_slave_ipif.vhd)   		| [link](ch10_interfaces/ch10_5_axi_slave_ipif.md)  
 
+***
+
+### miscellaneous components
+Component available         | Source                                                      | Description
+----------------------------|-------------------------------------------------------------|:-------------------------------------------:
+Delay settable via generics	| [psi_common_delay.vhd](../hdl/psi_common_delay.vhd)					| [link](ch11_misc/ch11_1_delay.md)  
+Pipeline stage  			    	| [psi_common_pl_stage.vhd](../hdl/psi_common_pl_stage.vhd)   | [link](ch11_misc/ch11_2_pl_stage.md)    
+Multi pipeline stage      	| [psi_common_multi_pl_stage.vhd](../hdl/psi_common_multi_pl_stage.vhd)   | [link](ch11_misc/ch11_3_multi_pl_stage.md)   
+Ping pong buffer  	        | [psi_common_ping_pong.vhd](../hdl/psi_common_ping_pong.vhd) | [link](ch11_misc/ch11_4_ping_pong.md)   
+Delay settable via register | [psi_common_delay_cfg.vhd](../hdl/psi_common_delay_cfg.vhd) | [link](ch11_misc/ch11_5_delay_cfg.md)   
+Watchdog 										| [psi_common_watchdog.vhd](../hdl/psi_common_watchdog.vhd)   | [link](ch11_misc/ch11_6_watchdog.md)  
+Don't optimize (Xilinx) allows evaluating synthesis  | [psi_common_dont_opt.vhd](../hdl/psi_common_dont_opt.vhd)   | [link](ch11_misc/ch11_7_dont_opt.md)  
+Debouncer  									| [psi_common_debouncer.vhd](../hdl/psi_common_debouncer.vhd)  | [link](ch11_misc/ch11_8_debouncer.md)  
+***
+
 ### Packages
 
 Package available   | 									Source                                    | Description
@@ -68,4 +94,4 @@ Package available   | 									Source                                    | Descr
 Math  							| [psi_common_math_pkg.vhd](../hdl/psi_common_math_pkg.vhd)	 	| [link](ch2_packages/ch2_packages.md)  
 array 							| [psi_common_array_pkg.vhd](../hdl/psi_common_array_pkg.vhd) | [link](ch2_packages/ch2_packages.md)  
 logic								| [psi_common_logic_pkg.vhd](../hdl/psi_common_logic_pkg.vhd)	| [link](ch2_packages/ch2_packages.md)     
-axi 							  | [psi_common_axi_pkg.vhd](../hdl/psi_common_axi_pkg.vhd)			| [link](ch2_packages/ch2_packages.md)
+AXI 							  | [psi_common_axi_pkg.vhd](../hdl/psi_common_axi_pkg.vhd)			| [link](ch2_packages/ch2_packages.md)
